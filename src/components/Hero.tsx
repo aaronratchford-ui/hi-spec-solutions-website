@@ -49,8 +49,8 @@ export function Hero() {
       <div className="relative mx-auto mt-16 max-w-5xl">
         <div className="relative aspect-16/9 overflow-hidden rounded-3xl bg-slate-100 shadow-xl ring-1 ring-slate-900/10">
           <Image
-            src="/images/work/building-extension.jpg"
-            alt="A high-specification brick extension completed by Hi-Spec Solutions"
+            src="/images/work/roofing-housing.jpg"
+            alt="A large pitched roof newly completed by Hi-Spec Solutions"
             fill
             priority
             sizes="(min-width: 1024px) 64rem, 100vw"

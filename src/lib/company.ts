@@ -70,6 +70,22 @@ export const services = [
     ],
   },
   {
+    slug: 'structural-waterproofing',
+    name: 'Structural Waterproofing',
+    image: '/images/work/damp-render.jpg',
+    summary:
+      'Specialist tanking and waterproofing for swimming pools, basements and below-ground structures.',
+    description:
+      'Below-ground and water-retaining structures demand the right system, properly installed. We design and apply structural waterproofing for swimming pools, basements and cellars — including cementitious tanking, render systems and cavity drainage — to keep them watertight for the long term.',
+    features: [
+      'Swimming pool tanking',
+      'Basement & cellar waterproofing',
+      'Cementitious & render systems',
+      'Cavity drainage membranes',
+      'Below-ground structures',
+    ],
+  },
+  {
     slug: 'general-building',
     name: 'General Building',
     image: '/images/work/building-lantern.jpg',

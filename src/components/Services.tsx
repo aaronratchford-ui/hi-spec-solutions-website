@@ -13,6 +13,9 @@ const icons: Record<string, React.ReactNode> = {
   'damp-proofing': (
     <path d="M24 6s12 14 12 22a12 12 0 1 1-24 0c0-8 12-22 12-22ZM18 28a6 6 0 0 0 6 6" />
   ),
+  'structural-waterproofing': (
+    <path d="M8 10h32v28H8zM8 22c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3M8 31c4 0 4 3 8 3s4-3 8-3 4 3 8 3 4-3 8-3" />
+  ),
   'general-building': (
     <path d="M6 42V14l10-6 10 6M26 42V20l8-5 8 5v22M6 42h36M12 22h4M12 30h4M32 28h4M32 36h4" />
   ),
