@@ -6,7 +6,7 @@ import { company, credentials } from '@/lib/company'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
+    <Container className="pt-6 pb-16 text-center sm:pt-10 lg:pt-16">
       <p className="mx-auto mb-6 inline-flex items-center gap-x-2 rounded-full bg-purple-50 px-4 py-1 text-sm font-medium text-purple-700 ring-1 ring-purple-600/10">
         North West · Established over {company.yearsEstablished} years
       </p>
