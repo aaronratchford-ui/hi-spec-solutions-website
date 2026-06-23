@@ -92,8 +92,8 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="/" aria-label="Hi-Spec Solutions — Home">
-              <Logo className="h-14 w-auto sm:h-20" />
+            <Link href="/" aria-label="Hi-Spec Solutions — Home" className="shrink-0">
+              <Logo className="h-10 w-auto sm:h-14 md:h-20" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/services">Services</NavLink>
@@ -102,11 +102,15 @@ export function Header() {
               <NavLink href="/contact">Contact</NavLink>
             </div>
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
+          <div className="flex items-center gap-x-3 sm:gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
               <NavLink href={company.phoneHref}>{company.phone}</NavLink>
             </div>
-            <Button href="/contact" color="purple">
+            <Button
+              href="/contact"
+              color="purple"
+              className="shrink-0 whitespace-nowrap"
+            >
               <span>
                 Get a <span className="hidden lg:inline">free</span> quote
               </span>
