@@ -37,4 +37,19 @@
   --font-display: var(--font-lexend);
 
   --container-2xl: 40rem;
+
+  /* Brand palette — deep indigo-violet matched to the Hi-Spec logo (#220a54).
+     Overrides Tailwind's default `purple` scale so all purple-* utilities
+     across the site use the darker brand colour. */
+  --color-purple-50: #f3f1fa;
+  --color-purple-100: #e6e1f5;
+  --color-purple-200: #cbc0ea;
+  --color-purple-300: #a995da;
+  --color-purple-400: #7e63c4;
+  --color-purple-500: #573f9e;
+  --color-purple-600: #3b2178;
+  --color-purple-700: #2a1462;
+  --color-purple-800: #220a54;
+  --color-purple-900: #190640;
+  --color-purple-950: #10032a;
 }
