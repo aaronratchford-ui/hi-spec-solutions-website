@@ -48,6 +48,14 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/#testimonials"
+                  className="text-slate-400 hover:text-white"
+                >
+                  Reviews
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="text-slate-400 hover:text-white"
                 >
