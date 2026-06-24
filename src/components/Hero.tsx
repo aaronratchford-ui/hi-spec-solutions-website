@@ -15,16 +15,17 @@ export function Hero() {
           fill
           priority
           sizes="100vw"
-          className="absolute inset-0 -z-20 object-cover"
+          className="absolute inset-0 -z-20 object-cover contrast-110 saturate-110"
         />
-        {/* Dark overlay for text contrast */}
-        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-slate-950/85 via-slate-900/75 to-slate-950/90" />
+        {/* Lighter overlay so the roof shows through; text stays legible via
+            the gradient + text-shadow on the copy. */}
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-slate-950/55 via-slate-900/45 to-slate-950/70" />
 
         <Container className="py-24 text-center sm:py-32 lg:py-40">
           <p className="mx-auto mb-6 inline-flex items-center gap-x-2 rounded-full bg-white/10 px-4 py-1 text-sm font-medium text-white ring-1 ring-white/20 backdrop-blur-sm">
             North West · Established over {company.yearsEstablished} years
           </p>
-          <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl">
+          <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white [text-shadow:0_2px_16px_rgb(0_0_0/0.55)] sm:text-7xl">
             Roofing & building work{' '}
             <span className="relative whitespace-nowrap text-purple-300">
               <svg
@@ -38,7 +39,7 @@ export function Hero() {
               <span className="relative">done properly</span>
             </span>
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-200">
+          <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-100 [text-shadow:0_1px_10px_rgb(0_0_0/0.6)]">
             {company.name} is a North West construction firm specialising in
             roofing, structural repairs, damp proofing, general building and
             maintenance — for homeowners, housing associations and councils.
