@@ -4,6 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Gallery } from '@/components/Gallery'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { ScrollTopOnLoad } from '@/components/ScrollTopOnLoad'
 import { Services } from '@/components/Services'
 import { Testimonials } from '@/components/Testimonials'
 import { WhyChooseUs } from '@/components/WhyChooseUs'
@@ -11,6 +12,7 @@ import { WhyChooseUs } from '@/components/WhyChooseUs'
 export default function Home() {
   return (
     <>
+      <ScrollTopOnLoad />
       <Header />
       <main>
         <Hero />
