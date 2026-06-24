@@ -41,15 +41,15 @@
   /* Brand palette — dark blue (navy). Overrides Tailwind's default `purple`
      scale so every purple-* utility across the site renders as the brand
      dark blue without changing component markup. */
-  --color-purple-50: #edf1f9;
-  --color-purple-100: #d4def0;
-  --color-purple-200: #a9c0e2;
-  --color-purple-300: #86a9de;
-  --color-purple-400: #4a6cb0;
-  --color-purple-500: #284680;
-  --color-purple-600: #16306b;
-  --color-purple-700: #112650;
-  --color-purple-800: #0d1d3f;
-  --color-purple-900: #0a1730;
-  --color-purple-950: #060e1f;
+  --color-purple-50: #ebeff7;
+  --color-purple-100: #d0dbef;
+  --color-purple-200: #a3bce0;
+  --color-purple-300: #6b8fcb;
+  --color-purple-400: #3a5ea4;
+  --color-purple-500: #1d3a6e;
+  --color-purple-600: #0f2a5e;
+  --color-purple-700: #0b2049;
+  --color-purple-800: #081837;
+  --color-purple-900: #051129;
+  --color-purple-950: #030b1c;
 }
